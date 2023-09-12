@@ -10,12 +10,17 @@
 <body>
     
     <header id="head">
- <title>Profile</title>       
- <div class="logo">
-            <a href=""><span class="first-color">Bras</span><span class="second-color">Profile</span></a>
+		<title>Profile</title>       
+		<div class="logo" stlye="display:flex; justify-content:space-between;">
+            <a href="">
+				<span class="first-color">Bras</span>
+				<span class="second-color">Profile</span>
+			</a>
+			
+			<label for="toogle" class="bars"></label>
         </div>
         <!-- button navigasi responsive -->
-        <label for="toogle" class="bars"></label>
+        <!-- <label for="toogle" class="bars"></label> -->
         <input type="checkbox" id="toogle">
         <!-- end button -->
         <nav class="navbar">
@@ -26,116 +31,120 @@
             </ul>
         </nav>
     </header>
-    <div class="clearfix"></div>
-    <div class="jumbotron">
-        <div class="jumbotron-text">
-            <h1>Hello, <br><span class="second-color">I'm</span> I Putu <span class="second-color">Dika Dharma </span>Brasika</h1>
-        </div>      
-    </div>
-    <div class="clearfix"></div>
-    <main class="flex-container">
-        <div class="left-column">
-            <article id="aboutMe" class="about">
-                <div class="judul-artikel">
-                    <h3><span class="second-color">About</span> Me</h3>
-                </div>
-                <div class="konten-artikel" style="display: flex; align-items: center;">
-                   <div> <img src="assets/img/imageProfile2.png" alt="imageProfile" style="width: 100%;"></div>
-                <div>    <b><p>EN</p></b>
-                    <p>As a Bachelor of Informatics Engineering student at the Universitas Pendidikan Nasional, 
-                        I have an unwavering desire to work at IT Support and Management. 
-                        I am good at using software programming. Known as a fast learner, hard worker, and can work well in a team. 
-                        I'm looking for new experiences and opportunity insight as it aims to enhance creativity and my ability.
-                    </p>
-                    <b><p>ID</p></b>
-                    <p>Sebagai mahasiswa Sarjana Teknik Informatika di Universitas Pendidikan Nasional, 
-                        saya memiliki keinginan yang tak tergoyahkan untuk bekerja di IT Support and Management. 
-                        Saya pandai menggunakan pemrograman perangkat lunak. Dikenal sebagai pembelajar cepat, pekerja keras, 
-                        dan dapat bekerja dengan baik dalam tim. 
-                        Saya mencari pengalaman baru dan wawasan peluang karena bertujuan untuk meningkatkan kreativitas dan kemampuan saya.</p>
-                </div>
-            </div>
-            </article>
-            <article id="mySkill" class="skill">
-                <div class="judul-skill">
-                    <h3>My <span class="second-color">Skill</span></h3>
-                </div>
-                <div class="konten-skill">
-                    <ol class="bar-progress ">
-                        <li title="80%">
-                            <h4>HTML</h4>
-                            <span class="bar"><span class="html"></span></span>
-                        </li>
-                        <li title="20%">
-                            <h4>CSS</h4>
-                            <span class="bar"><span class="css"></span></span>
-                        </li>
-                        <li title="50%">
-                            <h4>SQL</h4>
-                            <span class="bar"><span class="sql"></span></span>
-                        </li>
-                        <li title="60%">
-                            <h4>Javascript</h4>
-                            <span class="bar"><span class="javascript"></span></span>
-                        </li>
-                        <li title="75%">
-                            <h4>PHP</h4>
-                            <span class="bar"><span class="php"></span></span>
-                        </li>
-                        <li title="65%">
-                            <h4>Bootstrap 5</h4>
-                            <span class="bar"><span class="bootstrap"></span></span>
-                        </li>
-                    </ol>
-                    <img src="assets/img/imageSkill.jpeg" alt="imageSkill">
-                </div>
-            </article>
-        </div>
-        <aside class="contact">
-            <div class="judul-contact">
-                <h4>Contact<span class="second-color">Me</span></h4>
-                <table border="1">
-                    <tr>
-                        <td colspan="2"><img src="assets/img/imageProfile.png" alt="imageProfile"></td>
-                    </tr>
-                    <tr>
-                        <td class="title-table second-color blur">Nama Lengkap</td>
-                        <td>I Putu Dika Dharma Brasika</td>
-                    </tr>
-                    <tr>
-                        <td class="title-table second-color blur">Tempat, Tanggal Lahir</td>
-                        <td>Denpasar, 20 November 2002</td>
-                    </tr>
-                    <tr>
-                        <td class="title-table second-color blur">Email</td>
-                        <td>
-                            <a href="mailto:brasikadika@gmail.com">
-                                brasikadika@gmail.com
-                            </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="title-table second-color blur">LinkedIn</td>
-                        <td>
-                            <a href=www.linkedin.com/in/i-putu-dika-dharma-brasika-308448211" target="_blank">
-                            linkedin.com/in/i-putu-dika-dharma-brasika-308448211
-                        </a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="title-table second-color blur">Instagram</td>
-                        <td>
-                            <a href="https://www.instagram.com/brassika_ target="_blank">
-                                instagram.com/brassika_
-                            </a>
-                        </td>
-                    </tr>
-                </table>
-            </div>
-        </aside>        
+    <!-- <div class="jumbotron"> -->
+        <!-- <div class="jumbotron-text"> -->
+            <!-- <h1>Hello, <br><span class="second-color">I'm</span> I Putu <span class="second-color">Dika Dharma </span>Brasika</h1> -->
+        <!-- </div>       -->
+    <!-- </div> -->
+    <main>
+		<div class="jumbotron">
+			<div class="jumbotron-text">
+				<h1>Hello, <br><span class="second-color">I'm</span> I Putu <span class="second-color">Dika Dharma </span>Brasika</h1>
+			</div>      
+		</div>
+		<div class="flex-container">
+			<div class="left-column">
+				<article id="aboutMe" class="about">
+					<div class="judul-artikel">
+						<h3><span class="second-color">About</span> Me</h3>
+					</div>
+					<div class="konten-artikel" style="display: flex; align-items: center;">
+					   <div> <img src="assets/img/imageProfile2.png" alt="imageProfile" style="width: 100%;"></div>
+					<div>    <b><p>EN</p></b>
+						<p>As a Bachelor of Informatics Engineering student at the Universitas Pendidikan Nasional, 
+							I have an unwavering desire to work at IT Support and Management. 
+							I am good at using software programming. Known as a fast learner, hard worker, and can work well in a team. 
+							I'm looking for new experiences and opportunity insight as it aims to enhance creativity and my ability.
+						</p>
+						<b><p>ID</p></b>
+						<p>Sebagai mahasiswa Sarjana Teknik Informatika di Universitas Pendidikan Nasional, 
+							saya memiliki keinginan yang tak tergoyahkan untuk bekerja di IT Support and Management. 
+							Saya pandai menggunakan pemrograman perangkat lunak. Dikenal sebagai pembelajar cepat, pekerja keras, 
+							dan dapat bekerja dengan baik dalam tim. 
+							Saya mencari pengalaman baru dan wawasan peluang karena bertujuan untuk meningkatkan kreativitas dan kemampuan saya.</p>
+					</div>
+				</div>
+				</article>
+				<article id="mySkill" class="skill">
+					<div class="judul-skill">
+						<h3>My <span class="second-color">Skill</span></h3>
+					</div>
+					<div class="konten-skill">
+						<ol class="bar-progress ">
+							<li title="80%">
+								<h4>HTML</h4>
+								<span class="bar"><span class="html"></span></span>
+							</li>
+							<li title="20%">
+								<h4>CSS</h4>
+								<span class="bar"><span class="css"></span></span>
+							</li>
+							<li title="50%">
+								<h4>SQL</h4>
+								<span class="bar"><span class="sql"></span></span>
+							</li>
+							<li title="60%">
+								<h4>Javascript</h4>
+								<span class="bar"><span class="javascript"></span></span>
+							</li>
+							<li title="75%">
+								<h4>PHP</h4>
+								<span class="bar"><span class="php"></span></span>
+							</li>
+							<li title="65%">
+								<h4>Bootstrap 5</h4>
+								<span class="bar"><span class="bootstrap"></span></span>
+							</li>
+						</ol>
+						<img src="assets/img/imageSkill.jpeg" alt="imageSkill">
+					</div>
+				</article>
+			</div>
+			<aside class="contact">
+				<div class="judul-contact">
+					<h4>Contact<span class="second-color">Me</span></h4>
+					<table border="1">
+						<tr>
+							<td colspan="2"><img src="assets/img/imageProfile.png" alt="imageProfile"></td>
+						</tr>
+						<tr>
+							<td class="title-table second-color blur">Nama Lengkap</td>
+							<td>I Putu Dika Dharma Brasika</td>
+						</tr>
+						<tr>
+							<td class="title-table second-color blur">Tempat, Tanggal Lahir</td>
+							<td>Denpasar, 20 November 2002</td>
+						</tr>
+						<tr>
+							<td class="title-table second-color blur">Email</td>
+							<td>
+								<a href="mailto:brasikadika@gmail.com">
+									brasikadika@gmail.com
+								</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="title-table second-color blur">LinkedIn</td>
+							<td>
+								<a href=www.linkedin.com/in/i-putu-dika-dharma-brasika-308448211" target="_blank">
+								linkedin.com/in/i-putu-dika-dharma-brasika-308448211
+							</a>
+							</td>
+						</tr>
+						<tr>
+							<td class="title-table second-color blur">Instagram</td>
+							<td>
+								<a href="https://www.instagram.com/brassika_ target="_blank">
+									instagram.com/brassika_
+								</a>
+							</td>
+						</tr>
+					</table>
+				</div>
+			</aside>
+		<div>
     </main>
     </div>
-    <div class="clearfix"></div>
     <footer>
         <p>Dika Brasika 2023</p>
     </footer>
